@@ -26,6 +26,7 @@ subt=su(num1,num2)
 muli=mul(num1,num2)
 divi=div(num1,num2)
 
+#output to be shown to user
 opt=int(input('enter your option: \n1.Add\n2.Sub\n3.Mul\n4.div\nyour option: '))
 
 if opt==1:
