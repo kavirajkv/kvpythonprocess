@@ -1,11 +1,11 @@
 #Empty node creation
-class Node:
+class Node():
     def __init__(self,data):
         self.data=data
         self.next=None
         
 #creating empty linked list
-class LinkedList:
+class LinkedList():
     def __init__(self):
         self.head=None
         
@@ -13,6 +13,7 @@ class LinkedList:
     def printll(self):
         if self.head is None:
             print('The linked list is empty')
+            return
         else:
             node=self.head
             while node is not None:
@@ -73,4 +74,7 @@ class LinkedList:
                 return
             prev_node=node
         raise Exception('Element not found')
-    
+ll=LinkedList()
+ll.insertfirst(Node(6))
+ll.insertatlast(Node(7))
+ll.printll()
