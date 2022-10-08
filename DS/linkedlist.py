@@ -76,5 +76,7 @@ class LinkedList():
         raise Exception('Element not found')
 ll=LinkedList()
 ll.insertfirst(Node(6))
-ll.insertatlast(Node(7))
+#ll.insertfirst(Node(7))
+#ll.remove(6)
 ll.printll()
+
