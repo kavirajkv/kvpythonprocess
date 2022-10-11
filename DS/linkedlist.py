@@ -76,3 +76,5 @@ if __name__=='__main__':
     sll.removenode(7)
     print()
     sll.printsll()
+    
+    
